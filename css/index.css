@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    --impBlue:#0c0a3e;
+    --impPurple:#7b1e7a;
+    --impRed:#b33f62;
+    --impOrange:#f9564f;
+    --impYellow:#f3c677;
+    scroll-behavior: smooth;
+  
+}
+body{
+    overflow-x: hidden;
+}
+#landing{
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('../images/rebecca-campbell-wNGD6Qnb1xA-unsplash.jpg')  no-repeat center ;
+    background-size: cover;
+    height: 80vh;
+    
+}
+.bg-blue{
+    background: var(--impBlue);
+}
+.text-blue{
+    color: var(--impBlue);
+}
+.bg-purple{
+    background: var(--impPurple);
+}
+.text-purple{
+    color: var(--impPurple);
+}
+.bg-red{
+    background: var(--impRed);
+}
+.text-red{
+    color: var(--impRed);
+}
+.bg-orange{
+    background: var(--impOrange);
+}
+.text-orange{
+    color: var(--impOrange);
+}
+.bg-yellow{
+    background: var(--impYellow);
+}
+.text-yellow{
+    color: var(--impYellow);
+}
+.navbar-dark .navbar-nav .nav-link{
+   color:var(--impRed) !important ;
+   font-weight: bold;
+   text-transform: uppercase;
+   margin: 1rem;
+
+}
+.navbar-nav .nav-link{
+    color:var(--impRed) !important ;
+   margin: 0.5rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--impYellow) !important;
+    text-transform: capitalize;
+   transition: color 200ms ease-in;
+}
+.btn:hover{
+   background: var(--impPurple);
+}
+
+/* underline */
+.text-underline{
+    width: 15%;
+    height: 10%;
+}
+.social p a{
+    color: var(--impYellow);
+}
+.social p a:hover{
+    color: var(--impOrange);
+}
